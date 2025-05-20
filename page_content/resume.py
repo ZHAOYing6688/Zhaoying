@@ -21,39 +21,22 @@ def resume_page():
 
     st.header("Contact Information")
     st.markdown("""
-    - **Email:** jane.doe@example.com
-    - **Phone:** (123) 456-7890
-    - **LinkedIn:** [linkedin.com/in/janedoe](https://linkedin.com/in/janedoe)
-    - **GitHub:** [github.com/janedoe](https://github.com/janedoe)
-    - **Address:** 123 Main St, Anytown, USA
+    - **Email:** 13381390371@163.com
+    - **Phone:** 13381390371
+    - **GitHub:** (https://github.com/ZHAOYing6688/Zhaoying)
+    - **Address:** 123 Main St, Anytown, Hongkong
     """)
 
     st.header("Professional Summary")
     st.markdown("""
-    Highly skilled software engineer with over 5 years of experience in developing scalable web applications. Proven ability to lead teams, manage projects, and improve software performance. Seeking a challenging role to utilize my technical expertise and problem-solving skills.
-    """)
-
-    st.header("Work Experience")
-    st.markdown("""
-    **Software Engineer, TechCorp Inc.**
-    - *June 2019 – Present*
-    - Developed and maintained web applications using Python and JavaScript.
-    - Improved application performance by 30% through code optimization.
-    - Led a team of 5 developers, conducting code reviews and mentoring junior engineers.
-    - Collaborated with cross-functional teams to define project requirements and deliverables.
-
-    **Junior Software Developer, WebSolutions LLC**
-    - *January 2017 – May 2019*
-    - Assisted in the development of client-side applications using HTML, CSS, and JavaScript.
-    - Participated in agile sprints and contributed to project planning and task estimation.
-    - Implemented unit tests and conducted debugging to ensure code quality.
+    Highly skilled Marketer with over 5 years of experience in Learning in Business School.
     """)
 
     st.header("Education")
     st.markdown("""
-    **Bachelor of Science in Computer Science**
-    - University of Anytown
-    - *Graduated: May 2016*
+    **Bachelor of Marketing**
+    - Renmin University of China
+    - *Graduated: June 2024*
     - GPA: 3.8/4.0
     """)
 
@@ -61,16 +44,9 @@ def resume_page():
     st.markdown("""
     - **Programming Languages:** Python, JavaScript, Java, C++
     - **Web Technologies:** HTML, CSS, React, Node.js, Django
-    - **Databases:** MySQL, PostgreSQL, MongoDB
-    - **Tools:** Git, Docker, Jenkins, AWS
     - **Soft Skills:** Team Leadership, Project Management, Problem-Solving, Communication
     """)
 
-    st.header("Certifications")
-    st.markdown("""
-    - AWS Certified Solutions Architect
-    - Certified Scrum Master
-    """)
 
     st.header("Projects")
     st.markdown("""
@@ -86,14 +62,13 @@ def resume_page():
     st.header("Languages")
     st.markdown("""
     - **English:** Native
-    - **Spanish:** Intermediate
     """)
 
     st.header("Interests")
     st.markdown("""
     - Open-source contributions
-    - Blogging about technology trends
-    - Hiking and outdoor activities
+    - Blogging about delicious food
+    - Traveling and shopping
     """)
 
     st.markdown("---") 

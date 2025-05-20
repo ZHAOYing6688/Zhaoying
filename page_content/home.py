@@ -6,7 +6,7 @@ def home_page():
     left_col, right_col = st.columns(2)
     left_col.markdown(
         """
-        <h4>Sarah Johnson</h4>
+        <h4>Alina ZHAO</h4>
         <p>Recent Master's Graduate in Marketing<br>
         Chinese University of Hong Kong<br>
         12 Chak Cheung St., Ma Liu Shui, HKSAR<br>
@@ -16,7 +16,7 @@ def home_page():
     )
 
     # add a photo to the right column
-    image_path = os.path.join("static", "images", "image.png")
+    image_path = os.path.join("static", "images", "image.jpeg")
     if os.path.exists(image_path):
         image = Image.open(image_path)
         right_col.image(image, width=200)
