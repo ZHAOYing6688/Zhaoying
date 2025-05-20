@@ -1,4 +1,1 @@
 streamlit
-pillow
-panadas
-numpy

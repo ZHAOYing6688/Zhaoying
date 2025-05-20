@@ -28,7 +28,7 @@ def home_page():
     st.markdown(
         """
         ### About Me
-        I am a recent master's graduate in Data Science from the University of XYZ, eager to apply my knowledge and skills in a professional setting. During my academic journey, I developed a strong foundation in statistical analysis, machine learning, and data visualization.
+        I am a recent master's graduate in Marketing from The Chinese University of HongKong, eager to apply my knowledge and skills in a professional setting. During my academic journey, I developed a strong foundation in statistical analysis, machine learning, and data visualization.
 
         As part of my master's program, I completed several projects that involved working with real-world datasets and applying various data science techniques. These projects allowed me to gain hands-on experience in data preprocessing, exploratory data analysis, model building, and evaluation.
 
@@ -41,10 +41,6 @@ def home_page():
         ### Skills
         - Programming Languages: Python, R
         - Data Analysis: Pandas, NumPy, Matplotlib, Seaborn
-        - Machine Learning: Scikit-learn, TensorFlow, Keras
-        - Database: SQL, MongoDB
-        - Data Visualization: Tableau, Power BI
-        - Statistical Analysis: Hypothesis Testing, Regression Analysis
         - Communication: Presentation Skills, Technical Writing
         """
     )
