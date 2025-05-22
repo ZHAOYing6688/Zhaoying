@@ -10,7 +10,7 @@ def home_page():
         <p>Recent Master's Graduate in Marketing<br>
         Chinese University of Hong Kong<br>
         12 Chak Cheung St., Ma Liu Shui, HKSAR<br>
-        <a href="mailto:sarah.13381390371@163.com">sarah.13381390371@163.com</a></p>
+        <a href="mailto:sarah.13381390371@163.com">13381390371@163.com</a></p>
         """,
         unsafe_allow_html=True
     )
