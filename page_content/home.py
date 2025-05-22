@@ -10,13 +10,13 @@ def home_page():
         <p>Recent Master's Graduate in Marketing<br>
         Chinese University of Hong Kong<br>
         12 Chak Cheung St., Ma Liu Shui, HKSAR<br>
-        <a href="mailto:sarah.johnson@example.com">sarah.johnson@example.com</a></p>
+        <a href="mailto:sarah.13381390371@163.com">sarah.13381390371@163.com</a></p>
         """,
         unsafe_allow_html=True
     )
 
     # add a photo to the right column
-    image_path = os.path.join("static", "images", "image.jpeg")
+    image_path = os.path.join("static", "images", "img.jpeg")
     if os.path.exists(image_path):
         image = Image.open(image_path)
         right_col.image(image, width=200)
@@ -28,11 +28,11 @@ def home_page():
     st.markdown(
         """
         ### About Me
-        I am a recent master's graduate in Marketing from The Chinese University of HongKong, eager to apply my knowledge and skills in a professional setting. During my academic journey, I developed a strong foundation in statistical analysis, machine learning, and data visualization.
+        I am a marketing professional with a Master's degree in Marketing from The Chinese University of Hong Kong, specializing in big data strategies.
 
-        As part of my master's program, I completed several projects that involved working with real-world datasets and applying various data science techniques. These projects allowed me to gain hands-on experience in data preprocessing, exploratory data analysis, model building, and evaluation.
+        I am skilled in using tools like SPSS and Python, and I thrive in collaborative environments.
 
-        I am passionate about leveraging data to drive insights and make informed decisions. I am a quick learner, a collaborative team player, and possess strong problem-solving skills. I am excited to contribute my skills and grow as a data science professional in a dynamic and challenging environment.
+        I aim to leverage my analytical skills and creativity to drive successful marketing initiatives.
         """
     )
 
@@ -47,4 +47,4 @@ def home_page():
 
     st.markdown("---")
     
-    # Interactive component has been moved to the experience page 
+    # Interactive component has been moved to the experience page

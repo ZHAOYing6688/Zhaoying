@@ -7,6 +7,7 @@ warnings.simplefilter(action="ignore", category=FutureWarning)
 st.set_page_config(page_title="personalsite", layout="wide")
 
 # Import pages from the new directory
+from page_content.home import home_page
 from page_content.experience import experience_page
 from page_content.education import education_page
 from page_content.contact import contact_page
@@ -30,6 +31,7 @@ class MultiApp:
 app = MultiApp()
 
 # Add pages to the app
+app.add_app("Home", home_page)  # Add this line
 app.add_app("Education", education_page)
 app.add_app("Experience", experience_page)
 app.add_app("Contact", contact_page)
