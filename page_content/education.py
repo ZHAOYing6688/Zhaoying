@@ -5,14 +5,14 @@ def education_page():
     
     st.markdown("""
  ### Master of Marketing
-    **The Chinese University of Hongkong** | Aug. 2024 - Nov. 2025*
+    **The Chinese University of Hongkong** | Aug. 2024 - Nov. 2025
     
     - GPA: 3.7/4.0
     - Relevant Coursework: Machine Learning, Big data, Social media Analytics, Customer Analytics,  Marketing Mangement
     
    
  ### Bachelor of Marketing
-    **The Renmin University of China** | *Sep. 2020 - Jun. 2024*
+    **The Renmin University of China** | Sep. 2020 - Jun. 2024
     
     - GPA: 3.7/4.0
     - Graduated with Honors
